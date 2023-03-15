@@ -1,0 +1,178 @@
+* {
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth; 
+}
+
+.nav-list {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+color: #fff;
+}
+
+.nav-link {
+position: static;
+display: flex;
+align-items: center;
+padding: 0 12px;
+text-decoration: none;
+font-size: 20px;
+font-weight: 300;
+line-height: 120px;
+color: #fff; 
+}
+
+a {
+transition: .3s;
+color: rgb(26, 126, 48);
+text-decoration: none;
+padding: 2px;
+}
+
+.nav-item {
+display: flex;
+align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+color: #fff;
+}
+
+.mail {
+text-decoration: none;   
+color: #000000;
+}
+
+.section-item a {
+text-decoration: none;  
+color: #000000;
+transition: color 0.5s;
+}
+
+.section-item a:hover {
+text-decoration: none; 
+color: #4d2323;
+}
+
+.main-container {
+display: flex;
+flex-wrap: wrap;
+text-decoration: none;
+}
+.section-main-title {
+text-align: center;
+}
+.container {
+max-width: 1440px;
+margin: auto;
+text-decoration: none;
+}
+
+.container-main {
+max-width: 1440px;
+margin: auto;
+text-decoration: none;      
+display: flex;
+flex-wrap: wrap;
+}
+
+.section { 
+width: 50%;
+padding: 30px;
+padding-bottom: 35px;
+text-decoration: none;
+}
+
+@media (max-width: 768px) {
+.section {
+width: 100%;
+}
+
+}
+  /* @media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+      
+    }
+  } */
+
+@media (max-width: 1440px) {
+.main {
+padding: 0 20px;
+}
+}
+
+.body {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-width: 320px;
+min-height: 100vh;
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+}
+.header {
+width: 100%;
+text-decoration: none;
+background-color: #157a6a;
+text-align: center;
+justify-content: space-between;
+}
+
+.section-title {
+font-size: 20px;
+font-weight: absolute;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 5px;
+color: #444444;
+text-decoration: none;
+}
+
+.main {
+display: flex;
+margin: 0 auto;
+padding: 0 auto;
+justify-content: space-between;
+text-align: justify;
+}
+
+.footer {
+background-color: #157a6a;
+text-align: center;
+}
+
+.footer-title {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+color: #fff;
+}
+
+.link-github {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+text-decoration: none; 
+color: #fff;
+}
+
+.link-image {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+color: #fff;
+}
